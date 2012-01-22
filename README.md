@@ -6,7 +6,7 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 
 ## Usage
 
-1. [Download]() and extract the ZIP file
+1. [Download](https://github.com/lhagan/Open-in-Chrome/zipball/master) and extract the ZIP file
 2. Install the extension (double-click OpenInChrome.safariextz)
 3. Put the ChromeHelper app anywhere you want and double-click it to register with Mac OS X (nothing will happen yet)
 4. Click the Open in Chrome arrow button in Safari to open the current page in Chrome
