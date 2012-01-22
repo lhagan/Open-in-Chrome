@@ -1,0 +1,36 @@
+<!--
+Open in Chrome Safari Extension
+by Luke Hagan <lukehagan.com>
+created 2012-01-22
+released under the MIT license (see LICENSE.md for details)
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>global page</title>
+   <script type="text/javascript">
+ 
+	function performCommand(event) {
+	    if (event.command === "openinchrome") {
+	        var currentURL = event.target.browserWindow.activeTab.url;
+	        if (currentURL) {
+	            event.target.browserWindow.activeTab.url = "chromehelper://" + currentURL.split("://")[1];
+			}
+	    }
+	}
+ 
+	function validateCommand(event) {
+	    if (event.command === "reload-page") {
+	        // Disable the button if there is no URL loaded in the tab.
+	        event.target.disabled = !event.target.browserWindow.activeTab.url;
+	    }
+	}
+ 
+	// register with application:
+	safari.application.addEventListener("command", performCommand, false);
+	safari.application.addEventListener("validate", validateCommand, false);
+     
+   </script>
+</head>
+<body> </body>
