@@ -11,3 +11,8 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 3. Put the ChromeHelper app anywhere you want and double-click it to register with Mac OS X (nothing will happen yet)
 4. Click the Open in Chrome arrow button in Safari to open the current page in Chrome
 
+## Version History
+
+**2012-12-12**: Bug fix - make sure that Chrome always brings itself to the front (instead of hiding behind Safari).
+
+**2012-01-23**: Initial release.
