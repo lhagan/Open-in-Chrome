@@ -10,6 +10,8 @@
 	<string>applet</string>
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ScriptEditor.id.ChromeHelper</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -34,7 +36,7 @@
 		<key>x86_64</key>
 		<string>10.6</string>
 	</dict>
-	<key>LSUIElement</key>
+	<key>LSRequiresCarbon</key>
 	<true/>
 	<key>WindowState</key>
 	<dict>
@@ -47,7 +49,7 @@
 		<key>positionOfDivider</key>
 		<real>333</real>
 		<key>savedFrame</key>
-		<string>24 138 602 597 0 0 1366 746 </string>
+		<string>45 103 602 597 0 0 1366 746 </string>
 		<key>selectedTabView</key>
 		<string>result</string>
 	</dict>
