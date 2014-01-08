@@ -13,7 +13,9 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 
 ## Version History
 
-**2013-07-22**: Fix an issue that caused OS X to report that the ChromeHelper application is damaged
+**2014-01-07**: Add retina toolbar icon.
+
+**2013-07-22**: Fix an issue that caused OS X to report that the ChromeHelper application is damaged.
 
 **2012-12-12**: Bug fix - make sure that Chrome always brings itself to the front (instead of hiding behind Safari).
 
