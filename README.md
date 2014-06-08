@@ -13,6 +13,8 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 
 ## Version History
 
+**2014-06-08**: Fix an issue causing Chrome to open in Parallels instead of the native version (issue #2).
+
 **2014-01-07**: Add retina toolbar icon.
 
 **2013-07-22**: Fix an issue that caused OS X to report that the ChromeHelper application is damaged.
