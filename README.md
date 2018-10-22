@@ -1,3 +1,5 @@
+**Note**: this project is no longer maintained and probably doesn't work in the latest version of macOS/Safari.
+
 # Open in Chrome
 
 Safari extension that opens the current page in Chrome. See [this post](http://daringfireball.net/2010/11/flash_free_and_cheating_with_google_chrome) by John Gruber for the "why" on this one.
